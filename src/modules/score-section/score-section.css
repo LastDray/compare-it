@@ -1,0 +1,20 @@
+.scoreGrid {
+	display: grid;
+	grid-template-columns: 0.1fr 40% 0.1fr;
+	row-gap: 40px;
+	column-gap: 2vw;
+}
+
+.scoreCard {
+	max-width: 100%;
+}
+
+.scorePoint {
+	align-self: center;
+}
+
+.rootGrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 20px;
+}

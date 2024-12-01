@@ -1,0 +1,22 @@
+.compareGrid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(200px, 1fr));
+	column-gap: 40px;
+}
+
+.roundHeader {
+	padding-bottom: 20px;
+}
+
+.compareCard {
+	max-height: 90vh;
+	img {
+		width: auto;
+		height: 100%;
+	}
+}
+
+.compareCard:hover {
+	cursor: pointer;
+	outline: 1px solid purple;
+}
