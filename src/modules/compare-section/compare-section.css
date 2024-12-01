@@ -18,5 +18,5 @@
 
 .compareCard:hover {
 	cursor: pointer;
-	outline: 1px solid purple;
+	outline: 1px solid var(--purpleColor);
 }

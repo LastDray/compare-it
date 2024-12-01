@@ -11,7 +11,7 @@ import ScoreSection from '../modules/score-section';
 function App() {
 	const handleClick = () => {
 		if (!resizedImages.length) {
-			setErrorMessage('Загрузить хотя бы одно изображение!');
+			setErrorMessage('Загрузитe хотя бы одно изображение!');
 		} else {
 			setIsReady(true);
 			setErrorMessage('');
@@ -45,6 +45,7 @@ function App() {
 
 	return (
 		<div className='app'>
+			<h1 className='mainTitle'>Compare IT!</h1>
 			{!isReady && !isFinish && (
 				<UploadingSection
 					handleStart={handleClick}

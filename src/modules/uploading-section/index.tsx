@@ -154,9 +154,11 @@ const UploadingSection: FC<UploadtingSectionProps> = ({
 				)}
 			</div>
 			<div className='images'>
-				<h2 className='header'>
-					Загружено изображений {resizedImages.length}
-				</h2>
+				{resizedImages.length !== 0 && (
+					<h2 className='header'>
+						Загружено изображений {resizedImages.length}
+					</h2>
+				)}
 				{errorMessage && (
 					<h3 className='errorMessage'>{errorMessage}</h3>
 				)}
